@@ -24,6 +24,35 @@ please all class in css start with your name! example: .oktay-img{...}
 /* Zeynep Start Here For Costom CSS Code*/
 
 
+
+/*///////*CREATIVE PORTFOLIO////////*/
+
+
+.z-portfolio-img {
+    border: 1.5rem solid #fff;
+    display: inline-grid;
+    
+    
+
+}
+
+
+.z-fluid {
+    background-color: #f8f9fa;
+}
+
+
+/*///////*TESTIMONIAL////////*/
+
+.testimonial-backg {
+    background-image: url("/img/bg-img1.jpg");
+
+}
+
+
+
+
+
 /* Zeynep Finish Here For Costom CSS Code*/
 /******************************************/
 /* Mohammed Start Here For Costom CSS Code*/
