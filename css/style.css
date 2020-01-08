@@ -16,7 +16,56 @@ please all class in css start with your name! example: .oktay-img{...}
 /******************************************/
 /* Oktay Start Here For Costom CSS Code*/
 
+.oktay-justify{
+    justify-content: space-around;
+}
 
+.oktay-text-wexim{
+    font-size: xx-large;
+    color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.oktay-text-wexim:hover{
+    color: white;
+    text-decoration: none;
+   
+}
+
+.oktay-nav-link:hover{
+    color: white;
+    border-bottom: solid rgb(22, 175, 202);
+ 
+
+
+}
+
+.oktay-nav-link{
+    color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-bottom: solid;
+    border-color: #343a40;
+}
+
+.oktay-red-spot{
+    color: rgb(22, 175, 202)
+}
+
+.mx-6{
+    margin:0 auto;
+    padding: 10% 20%;
+}
+
+.oktay-color{
+    color: rgb(22, 175, 202);
+}
+
+.oktay-play-icon{
+    font-size: 10rem;
+    padding-bottom: 0.2em;
+}
 
 
 /* Oktay Finish Here For Costom CSS Code*/
