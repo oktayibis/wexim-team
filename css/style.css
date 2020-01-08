@@ -55,7 +55,7 @@ please all class in css start with your name! example: .oktay-img{...}
 
 .mx-6{
     margin:0 auto;
-    padding: 10% 20%;
+    padding: 5% 20%;
 }
 
 .oktay-color{
@@ -67,6 +67,20 @@ please all class in css start with your name! example: .oktay-img{...}
     padding-bottom: 0.2em;
 }
 
+.oktay-text-light-100{
+    font-weight: 100;
+}
+
+.btn-outline-oktay {
+    color: white;
+    border-color:white;
+  }
+  
+  .btn-outline-oktay:hover {
+    color: #fff;
+    background-color: rgb(22, 175, 202);
+    border-color: rgb(22, 175, 202);
+  }
 
 /* Oktay Finish Here For Costom CSS Code*/
 /******************************************/
