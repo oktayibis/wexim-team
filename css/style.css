@@ -111,6 +111,22 @@ please all class in css start with your name! example: .oktay-img{...}
     border-radius: 0;
   }
 
+  .progress-bar-oktay {
+    transition: width 0.6s ease;
+    background: linear-gradient(to right,#3264F5,#7202BB);
+    border-radius: 1em;
+
+}
+.progress-oktay {
+    display: -ms-flexbox;
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: 0.75rem;
+    background-color: #e9ecef;
+    border-radius: 1em;
+  }
+
 /* Oktay Finish Here For Costom CSS Code*/
 /******************************************/
 /* Zeynep Start Here For Costom CSS Code*/
