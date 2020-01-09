@@ -16,8 +16,116 @@ please all class in css start with your name! example: .oktay-img{...}
 /******************************************/
 /* Oktay Start Here For Costom CSS Code*/
 
+.oktay-justify{
+    justify-content: space-around;
+}
+
+.oktay-text-wexim{
+    font-size: xx-large;
+    color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.oktay-text-wexim:hover{
+    color: white;
+    text-decoration: none;
+   
+}
+
+.oktay-nav-link:hover{
+    color: white;
+    border-bottom: solid rgb(22, 175, 202);
+ 
 
 
+}
+
+.oktay-nav-link{
+    color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-bottom: solid;
+    border-color: #343a40;
+}
+
+.oktay-red-spot{
+    color: rgb(22, 175, 202)
+}
+
+.mx-6{
+    margin:0 auto;
+    padding: 5% 20%;
+}
+
+.oktay-color{
+    color: rgb(22, 175, 202);
+}
+
+.oktay-play-icon{
+    font-size: 10rem;
+    padding-bottom: 0.2em;
+}
+
+.oktay-text-light-100{
+    font-weight: 100;
+}
+.oktay-text-light-400{
+    font-weight: 400;
+}
+
+.btn-outline-oktay {
+    color: white;
+    border-color:white;
+  }
+  
+  .btn-outline-oktay:hover {
+    color: #fff;
+    background-color: rgb(22, 175, 202);
+    border-color: rgb(22, 175, 202);
+  }
+
+  .oktay-font-p{
+      font-size: large;
+      line-height: 1.5em;
+      font-weight: 300;
+      letter-spacing: 0.1em;
+  }
+
+.oktay-img{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+
+.btn-outline-black {
+    color: black;
+    border-color:black;
+    border-radius: 0;
+  }
+  
+  .btn-outline-black:hover {
+    color: white;
+    background-color: black;
+    border-color: black;
+    border-radius: 0;
+  }
+
+  .progress-bar-oktay {
+    transition: width 0.6s ease;
+    background: linear-gradient(to right,#3264F5,#7202BB);
+    border-radius: 1em;
+
+}
+.progress-oktay {
+    display: -ms-flexbox;
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: 0.75rem;
+    background-color: #e9ecef;
+    border-radius: 1em;
+  }
 
 /* Oktay Finish Here For Costom CSS Code*/
 /******************************************/
