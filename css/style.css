@@ -70,6 +70,9 @@ please all class in css start with your name! example: .oktay-img{...}
 .oktay-text-light-100{
     font-weight: 100;
 }
+.oktay-text-light-400{
+    font-weight: 400;
+}
 
 .btn-outline-oktay {
     color: white;
@@ -80,6 +83,32 @@ please all class in css start with your name! example: .oktay-img{...}
     color: #fff;
     background-color: rgb(22, 175, 202);
     border-color: rgb(22, 175, 202);
+  }
+
+  .oktay-font-p{
+      font-size: large;
+      line-height: 1.5em;
+      font-weight: 300;
+      letter-spacing: 0.1em;
+  }
+
+.oktay-img{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+
+.btn-outline-black {
+    color: black;
+    border-color:black;
+    border-radius: 0;
+  }
+  
+  .btn-outline-black:hover {
+    color: white;
+    background-color: black;
+    border-color: black;
+    border-radius: 0;
   }
 
 /* Oktay Finish Here For Costom CSS Code*/
