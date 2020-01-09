@@ -30,24 +30,151 @@ please all class in css start with your name! example: .oktay-img{...}
 
 .z-portfolio-img {
     border: 1.5rem solid #fff;
-    display: inline-grid;
-    
-    
+
+  
 
 }
 
+
+.z-h3 {
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.z-span {
+    color: #00BCD4;
+    font-weight: 410;
+}
 
 .z-fluid {
-    background-color: #f8f9fa;
+    background-color: #F8F9FA;
+
+    margin: 5rem 0;
 }
+
+.z-text-gradient {
+    background-image: linear-gradient(to right,#3264F5,#7202BB);
+}
+
+.z-p-text {
+    font-weight: 300;
+    color: gray;
+    font-size: 1rem;
+}
+
+.z-p-text p span {
+    color:#00BCD4 ;
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+a.z-text-gradient  {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    padding: 1rem 2rem;
+   
+}
+
+
+@media only screen and (min-width:1300px){
+    .zh3 {
+        padding: 0 3rem;
+        margin:1rem;
+    } 
+
+    .portfolio-m {  
+
+        margin-top: -5rem;
+       
+    }  
+    
+    .z-bottomImg{
+        margin-bottom: -5rem;
+    }
+
+
+    .z-headingContent{
+       /*padding: 5rem;*/
+    }  
+
+
+}
+
+/*///////*EASY PRICING////////*/
+
+.z-sec-2 {
+    margin: 5rem 0 ;
+
+}
+
+#z-pricing-link1 {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    padding: 1rem 2rem;
+    background-color:#00BCD4 ;
+}
+
+
+.z-span-1 {
+    font-weight: 410;
+}
+
+
+.z-plans {
+    background-color: #F8F9FA;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+
+.z-span-2 {
+
+   font-size: 5rem;
+   font-weight: 500;
+}
+
+
+
+
 
 
 /*///////*TESTIMONIAL////////*/
 
 .testimonial-backg {
-    background-image: url("/img/bg-img1.jpg");
-
+    position: relative;
+    background-image: linear-gradient(to right, rgba(50, 100, 245, 0.8), rgba(114, 2, 187, 0.8));
+    color: #fff;
+    
+    
+    
+   
+    
+   
 }
+
+
+.testimonial-backg::after{
+    background-image: url("/img/bg-img1.jpg");
+    content:"";
+    background-size: cover;
+    background-position: center; 
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+
+
+.testimonial-backg span{
+    font-size: 3rem;
+}
+
 
 
 
