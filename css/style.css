@@ -6,7 +6,9 @@ do not change below code
     font-family: 'Poppins', sans-serif;
 
 }
-
+img{
+    max-width: 100%;
+}
 /*
 Please do not use genaral tag or selector.
 do not use class in bootstrap -
@@ -16,8 +18,116 @@ please all class in css start with your name! example: .oktay-img{...}
 /******************************************/
 /* Oktay Start Here For Costom CSS Code*/
 
+.oktay-justify{
+    justify-content: space-around;
+}
+
+.oktay-text-wexim{
+    font-size: xx-large;
+    color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.oktay-text-wexim:hover{
+    color: white;
+    text-decoration: none;
+   
+}
+
+.oktay-nav-link:hover{
+    color: white;
+    border-bottom: solid rgb(22, 175, 202);
+ 
 
 
+}
+
+.oktay-nav-link{
+    color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-bottom: solid;
+    border-color: #343a40;
+}
+
+.oktay-red-spot{
+    color: rgb(22, 175, 202)
+}
+
+.mx-6{
+    margin:0 auto;
+    padding: 5% 20%;
+}
+
+.oktay-color{
+    color: rgb(22, 175, 202);
+}
+
+.oktay-play-icon{
+    font-size: 10rem;
+    padding-bottom: 0.2em;
+}
+
+.oktay-text-light-100{
+    font-weight: 100;
+}
+.oktay-text-light-400{
+    font-weight: 400;
+}
+
+.btn-outline-oktay {
+    color: white;
+    border-color:white;
+  }
+  
+  .btn-outline-oktay:hover {
+    color: #fff;
+    background-color: rgb(22, 175, 202);
+    border-color: rgb(22, 175, 202);
+  }
+
+  .oktay-font-p{
+      font-size: large;
+      line-height: 1.5em;
+      font-weight: 300;
+      letter-spacing: 0.1em;
+  }
+
+.oktay-img{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+
+.btn-outline-black {
+    color: black;
+    border-color:black;
+    border-radius: 0;
+  }
+  
+  .btn-outline-black:hover {
+    color: white;
+    background-color: black;
+    border-color: black;
+    border-radius: 0;
+  }
+
+  .progress-bar-oktay {
+    transition: width 0.6s ease;
+    background: linear-gradient(to right,#3264F5,#7202BB);
+    border-radius: 1em;
+
+}
+.progress-oktay {
+    display: -ms-flexbox;
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: 0.75rem;
+    background-color: #e9ecef;
+    border-radius: 1em;
+  }
 
 /* Oktay Finish Here For Costom CSS Code*/
 /******************************************/
@@ -183,11 +293,140 @@ a.z-text-gradient  {
 /* Zeynep Finish Here For Costom CSS Code*/
 /******************************************/
 /* Mohammed Start Here For Costom CSS Code*/
+#team-members img{
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+.pr-moh-6{
+  padding-right: 2rem !important;
+}
+ #team-members p{
+    margin: 0;
+}
+.container-moh {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  @media (min-width: 576px) {
+    .container-moh {
+      max-width: 540px;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+  }
+  @media (max-width: 600px){
+    #team-members div.swiper-slide p{
+        font-size: 12px;
+        margin: 0;
+        line-height: 1.2;
+    }
+    #team-members div.swiper-slide h5{
+        font-size: 1rem;
+        margin: 0;
+
+    }
+    #team-members div.swiper-slide h3{
+        font-size: 1rem;
+        margin: 0;
+        
+
+    }
+
+  }
+  
+  @media (min-width: 768px) {
+    .container-moh {
+      max-width: 720px;
+      padding-right: 70px;
+    padding-left: 70px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container-moh {
+      max-width: 960px;
+      padding-right: 120px;
+    padding-left: 120px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container-moh {
+      max-width: 1040px;
+      padding-right: 150px;
+        padding-left: 150px;
+    }
+  }
 
 
 
+.moh-bg{
+    background: rgb(99,46,92);
+    background: linear-gradient(270deg, rgba(99,46,92,1) 20%, rgba(0,151,255,1) 100%);
+    font-weight: 500;
+    color: black;
+}
+.moh-p{
+    padding: 20% 0;
+}
+.moh2-bg{
+    background: rgb(78,77,78);
+    background: linear-gradient(130deg, rgba(78,77,78,1) 22%, rgba(36,44,48,1) 88%);
+    color: #fff;
+}
+@media only screen and (max-width:760px){
+    .moh-h1{
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+}
+@media only screen and (min-width:891px){
+    moh-sm{
+        display:none
+    }
+    moh-ls{
+        display:inherit
 
-/* Mohammed Finish Here For Costom CSS Code*/
+    }
+}
+@media only screen and (max-width:891px){
+    moh-sm{
+        display:inherit
+    }
+    moh-ls{
+        display:none
+
+    }
+}
+
+/*///////slider//////////////////*/
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }/* Mohammed Finish Here For Costom CSS Code*/
 
 /******************************************/
 /* Mustafa Start Here For Costom CSS Code*/
