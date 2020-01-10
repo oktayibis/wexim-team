@@ -134,15 +134,27 @@ please all class in css start with your name! example: .oktay-img{...}
 /* Zeynep Start Here For Costom CSS Code*/
 
 
+.z-container-m  {
+
+    padding: 0 3rem;
+}
+
+
 
 /*///////*CREATIVE PORTFOLIO////////*/
 
 
+
 .z-portfolio-img {
     border: 1.5rem solid #fff;
+    margin-bottom: 3rem;
 
-  
+}
 
+
+.portfolio-m {
+    
+    margin-top: 3rem;
 }
 
 
@@ -158,8 +170,8 @@ please all class in css start with your name! example: .oktay-img{...}
 
 .z-fluid {
     background-color: #F8F9FA;
-
     margin: 5rem 0;
+
 }
 
 .z-text-gradient {
@@ -187,7 +199,8 @@ a.z-text-gradient  {
 }
 
 
-@media only screen and (min-width:1300px){
+@media only screen and (min-width:1190px){
+
     .zh3 {
         padding: 0 3rem;
         margin:1rem;
@@ -195,21 +208,87 @@ a.z-text-gradient  {
 
     .portfolio-m {  
 
-        margin-top: -5rem;
+        margin-top: -8rem;
        
     }  
     
-    .z-bottomImg{
+    #z-bottomImg {
+
         margin-bottom: -5rem;
     }
 
 
-    .z-headingContent{
-       /*padding: 5rem;*/
-    }  
+    .z-headingContent {
+        
+        width: 591px;
+        margin: 0 auto;
+
+
+    }
+
+    /*.easy-pricingH {
+
+        margin: 0 20rem;
+
+
+    }*/
+
+    
+
+   
+
 
 
 }
+
+
+
+
+@media only screen and (max-width:685px) {
+
+    .z-portfolio-img {
+
+        width: 100%;
+        
+    }
+
+    .z-container-m {
+
+        padding: 0 0.5rem;
+    }
+
+
+    .z-portfolio-img {
+
+        border: 1rem solid #fff;
+        margin-bottom: 3rem;
+    
+    }
+
+
+    section .container-fluid {
+
+        font-size: 10px;
+    }
+
+    
+
+
+  
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
 
 /*///////*EASY PRICING////////*/
 
@@ -236,6 +315,8 @@ a.z-text-gradient  {
     background-color: #F8F9FA;
     border-radius: 2rem;
     text-align: center;
+    padding: 3rem;
+    margin: 0.5rem;
 }
 
 
@@ -245,6 +326,48 @@ a.z-text-gradient  {
    font-weight: 500;
 }
 
+
+.z-plans ul li i.fas.fa-check {
+    color: #63BE11;
+}
+
+.z-plans ul li i.fas.fa-times {
+    color: #E04645;
+}
+
+.z-plans ul {
+
+    list-style: none;
+}
+
+
+
+.z-plans-span1 {
+
+    color: #00BCD4;
+    font-weight: 300; 
+    font-size: 4rem;
+}
+
+
+.z-plans-span1 > span:nth-child(1) {
+    font-size: 2rem;
+    padding-top: 1rem;
+
+}
+
+
+.z-plans-span2 {
+
+    font-weight: 300; 
+    font-size: 4rem;
+    background-image: linear-gradient(to right,#3264F5,#7202BB);
+    
+
+
+}
+   
+ 
 
 
 
@@ -271,6 +394,7 @@ a.z-text-gradient  {
     background-size: cover;
     background-position: center; 
     position: absolute;
+    background-repeat: no-repeat;
     z-index: -1;
     top: 0;
     bottom: 0;
@@ -283,6 +407,7 @@ a.z-text-gradient  {
 
 .testimonial-backg span{
     font-size: 3rem;
+
 }
 
 
