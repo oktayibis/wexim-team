@@ -36,7 +36,115 @@ please all class in css start with your name! example: .oktay-img{...}
 /******************************************/
 /* Mustafa Start Here For Costom CSS Code*/
 
+	/*mobile-app-design section*/
+.mobile-app-design .main-caption h1{
+	background: -webkit-linear-gradient(left, rgba(110,104,205,1) 0%, rgba(60,60,209,1) 35%, rgba(0,212,255,1) 100%);
+	background: -o-linear-gradient(left, rgba(110,104,205,1) 0%, rgba(60,60,209,1) 35%, rgba(0,212,255,1) 100%);
+	background: linear-gradient(to right, rgba(110,104,205,1) 0%, rgba(60,60,209,1) 35%, rgba(0,212,255,1) 100%);
+}
+.mobile-app-design h4{
+	padding: 10px 0;
+}
+.mobile-app-design .caption-box p{
+	opacity: .7;
+	font-size: 13px;
+}
 
 
 
+
+	/*Living Your Dreams section*/
+.living-your-dreams .date-p{
+	color: #00bcd4;
+}
+.btn-gradient{
+	display: inline-block;
+	color: #fff;
+	padding: 10px 20px;
+	text-decoration: none;
+	background: -webkit-linear-gradient(left, rgba(110,104,205,1) 0%, rgba(60,60,209,1) 35%, rgba(0,212,255,1) 100%);
+	background: -o-linear-gradient(left, rgba(110,104,205,1) 0%, rgba(60,60,209,1) 35%, rgba(0,212,255,1) 100%);
+	background: linear-gradient(to right, rgba(110,104,205,1) 0%, rgba(60,60,209,1) 35%, rgba(0,212,255,1) 100%);
+}
+.btn-gradient:hover{
+	text-decoration: none;
+	color: #fff;
+	background: -webkit-linear-gradient(left, rgba(0,212,255,1) 0%, rgba(60,60,209,1) 35%, rgba(110,104,205,1) 100%);
+	background: -o-linear-gradient(left, rgba(0,212,255,1) 0%, rgba(60,60,209,1) 35%, rgba(110,104,205,1) 100%);
+	background: linear-gradient(to right, rgba(0,212,255,1) 0%, rgba(60,60,209,1) 35%, rgba(110,104,205,1) 100%);
+}
+
+
+
+	/* addres-info section*/
+.wexim-agency .addres-info{
+	background: url(../img/address-image.jpg) center center no-repeat;
+	position: relative;
+	z-index: 1;
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .8;
+	background: linear-gradient(to right, #3264f5 2%,#7202bb 82%);
+	z-index: 2;
+}
+.addres-info-caption{
+	position: relative;
+	z-index: 3;
+	padding: 45px 0;	
+}
+.addres-info-caption p{
+	font-weight: 300;
+	color: #fff;
+	margin: 0;
+}
+.addres-info-caption h1{
+	font-size: 50px;
+	color: #fff;
+}
+.addres-info-caption ul li a{
+	display: inline-block;
+	margin-right: 20px;
+	color: #fff;
+}
+.addres-info-caption ul li a:hover{
+	color: #333;
+}
+.input-width-forms{
+	margin: 30px 0;
+}
+.input-width{
+	border: none;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #e2e2e2;
+    width: 49%;
+    outline: none;
+}
+.m-textarea{
+	border: none;
+	border-bottom: 1px solid #e2e2e2;
+	outline: none;
+}
+	/* footer section*/
+footer{
+	margin: 100px 0;
+}
+footer ul.soical-media li a{
+	color: #333;
+	margin-left: 20px;
+}
+footer .footer-p{
+	opacity: .8;
+	font-size: 14px;
+}
+@media only screen and (max-width: 767px) {
+
+	.mobile-app-design .caption-box{
+		margin-bottom: 40px;
+	}
+}
 /* Mustafa Finish Here For Costom CSS Code*/
