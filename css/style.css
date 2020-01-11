@@ -199,9 +199,17 @@ a.z-text-gradient  {
 }
 
 
-@media only screen and (min-width:1190px){
+@media only screen and (min-width:1200px){
+
+
+    .z-fluid {
+        margin: 12rem 0;
+
+
+    }
 
     .zh3 {
+
         padding: 0 3rem;
         margin:1rem;
     } 
@@ -220,10 +228,23 @@ a.z-text-gradient  {
 
     .z-headingContent {
         
-        width: 591px;
+        width: 85%;
         margin: 0 auto;
+        margin-bottom: 5rem;
 
 
+    }
+
+
+    .z-col-l {
+
+        padding-left: 10%;
+    }
+
+
+    .z-col-r {
+        
+        padding-right: 10%;
     }
 
     /*.easy-pricingH {
@@ -324,6 +345,7 @@ a.z-text-gradient  {
 
    font-size: 5rem;
    font-weight: 500;
+   
 }
 
 
@@ -362,6 +384,8 @@ a.z-text-gradient  {
     font-weight: 300; 
     font-size: 4rem;
     background-image: linear-gradient(to right,#3264F5,#7202BB);
+    width: 13rem;
+    margin: 0 auto;
     
 
 
@@ -375,16 +399,21 @@ a.z-text-gradient  {
 
 /*///////*TESTIMONIAL////////*/
 
+
+figure img {
+
+    border-radius: 20rem;
+
+}
+
+
+
 .testimonial-backg {
+
     position: relative;
     background-image: linear-gradient(to right, rgba(50, 100, 245, 0.8), rgba(114, 2, 187, 0.8));
     color: #fff;
-    
-    
-    
-   
-    
-   
+       
 }
 
 
