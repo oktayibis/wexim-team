@@ -129,6 +129,16 @@ please all class in css start with your name! example: .oktay-img{...}
     border-radius: 1em;
   }
 
+  @media screen and (max-width: 600px) {
+    .oktay-h2 {
+      font-size: 2rem;
+    }
+
+    .oktay-h1{
+        font-size: 2.5rem;
+    }
+  }
+
 /* Oktay Finish Here For Costom CSS Code*/
 /******************************************/
 /* Zeynep Start Here For Costom CSS Code*/
