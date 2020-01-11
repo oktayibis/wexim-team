@@ -353,10 +353,18 @@ a.z-text-gradient  {
 
 .z-span-2 {
 
-   font-size: 5rem;
+   font-size: 10rem;
    font-weight: 500;
-   
+   background: -webkit-linear-gradient(#3264F5,#7202BB);
+   -webkit-background-clip: text;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
+   
+
+
+
+
 
 
 .z-plans ul li i.fas.fa-check {
