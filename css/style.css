@@ -598,7 +598,11 @@ figure img {
 	font-size: 13px;
 }
 
-
+.mobile-app-design  .mobile-img{
+	text-align: center;
+	margin-left: 2%;
+	margin-bottom: 20px;
+}
 
 
 	/*Living Your Dreams section*/
